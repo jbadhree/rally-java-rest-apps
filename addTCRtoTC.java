@@ -91,7 +91,7 @@ public class addTCRtoTC {
 	            	String[] createErrors;
 	            	createErrors = createResponse.getErrors();
 	        		System.out.println("Error occurred creating Test Case Result: ");
-	            	for (int j=0; i<createErrors.length;j++) {
+	            	for (int j=0; j<createErrors.length;j++) {
 	            		System.out.println(createErrors[j]);
 	            	}
 	            }
